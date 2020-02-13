@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Spiced Chickpeas with Halloumi",
+        "ingredients": ["Chickpeas", "Halloumi"],
+        "link": "https://www.bbcgoodfood.com/recipes/spiced-chickpeas-halloumi"
+
+    },
+
+    {
+        "name": "Vegan Chickpea Curry Jacket Potatoes",
+        "ingredients": ["Sweet potatoes", "Chilli", "Tomatoes", "Chickpeas", "Olive oil", "Halloumi"],
+        "link": "https://www.bbcgoodfood.com/recipes/vegan-chickpea-curry-jacket-potato"
+    },
+
+    {
+        "name": "Cauliflower, Courgette and Chickpea Tagine",
+        "ingredients": ["Onion", "Garlic", "Courgette", "Chickpeas", "Couscous"],
+        "link": "https://www.abelandcole.co.uk/box-recipes/cauliflower-courgette-chickpea-tagine"
+    }
+
+
+]

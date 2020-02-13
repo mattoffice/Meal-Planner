@@ -1,0 +1,25 @@
+<p>--********************************************************************************</p>
+
+<h1>All Recipes</h1>
+
+
+
+    <div *ngFor="let r of recipes">
+        <p>{{r.name}}</p>
+    </div>
+
+<p>--*********************************************************************************</p>
+
+
+
+    <h2>What can I make with my ingredients?</h2>
+
+    <button (click)="FilterTheRecipes()">
+        Filter recipes - this will select recipes with at least two of the selected ingredients.... 
+        </button>
+
+    <div *ngFor="let filteredRecipe of filteredRecipes">
+        <h3>Recipe: {{filteredRecipe.name}}</h3>
+        <h4>Ingredients: {{filteredRecipe.ingredients}}</h4>
+        <a href="{{filteredRecipe.link}}">Link (please open in new tab)</a>
+        </div>

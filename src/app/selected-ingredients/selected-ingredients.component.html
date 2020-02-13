@@ -1,0 +1,8 @@
+<p>--****************************************************************</p>
+<h1>Basket</h1>
+
+<div *ngIf="selectedIngredients">
+    <li *ngFor="let s of selectedIngredients">
+        <span>{{s.name}}</span>
+    </li>    
+</div>

@@ -1,0 +1,45 @@
+<h1>Please choose the ingredients you want in your basket</h1>
+
+<h1>Please choose 2 sources of <em>PROTEIN</em>:</h1>
+<div *ngFor="let ingredient of ingredients">
+    
+
+    <div *ngIf="ingredient.type=='Protein'">
+    
+    <h2>{{ingredient.name}} </h2>
+    <h4>{{ingredient.amount}}</h4>
+    <p>Source of: {{ingredient.type}}</p>
+    <button (click)="addToBasket(ingredient)">
+        Add to my basket 
+        </button>
+    </div>
+
+
+   
+
+    </div>
+
+    <h1>Please choose 2 <em>VEGETABLES</em>:</h1>
+
+    <div *ngFor="let ingredient of ingredients">
+    
+
+        <div *ngIf="ingredient.type=='Vegetable'">
+        
+        <h2>{{ingredient.name}} </h2>
+        <h4>{{ingredient.amount}}</h4>
+        <p>Source of: {{ingredient.type}}</p>
+        <button (click)="addToBasket(ingredient)">
+            Add to my basket 
+            </button>
+        </div>
+    
+     
+    
+        </div>
+
+<app-selected-ingredients [count]="initialCount" [selectedIngredients]="selectedIngredients">
+ 
+</app-selected-ingredients>
+
+
